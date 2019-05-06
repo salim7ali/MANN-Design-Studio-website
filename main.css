@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@media(min-width: 600px) {
+	main {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
+	}
+
+	/*.maps {
+		grid-column: span 6;
+		grid-row: span 3;
+	}*/
+	.info-1 {
+		grid-column: span 3;
+		grid-row: span 1;
+	}
+
+	.info-2 {
+		grid-column: span 3;
+	}
+
+	.info-3 {
+		grid-column: span 2;
+		grid-row: span 1;
+	}
+
+	.figure-1 {
+		grid-column: span 2;
+		grid-row: span 2;
+	}
+
+	.figure-3 {
+		grid-column: span 3;
+	}
+
+	.figure-4 {
+		grid-column: span 1;
+	}
+
+	.figure-6 {
+		grid-column: span 2;
+	}
+
+
+
+	.figure-7 {
+		grid-column: span 2;
+	}
+
+	.figure-8 {
+		grid-column: span 2;
+	}
+
+}
+
+	body {
+		max-width: 1600px;
+		margin: 0 auto;
+		font-family: 'Raleway', sans-serif;
+	}
+
+	.figure-img {
+		display: block;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	.info-1, .info-2, .info-3 {
+		padding: 40px;
+		background-color: black/*#292727*/;
+		color: #fff;
+
+	}
+
+	h2 {
+		font-size: 2em;
+		margin-bottom: 1em;
+	}
+
+	p {
+		margin-bottom: 1em;
+		font-weight: lighter;
+	}
+
+	.info-link {
+		text-decoration: none;
+		color: #d80c0c;
+	}
+
+	.secondary{
+	background: #292727;
+	padding: 5px;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+	border-bottom-left-radius: 12px;
+	border-bottom-right-radius: 12px;
+	color: #fff;
+	}
+
+footer p{
+	text-align: center;
+}
+
+.info-1 h2{
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+}
+
+#plans {
+	font-size: 0.6em;
+	text-align: center;
+}
+
+.info-3 h2 {
+	color: #FF4500;
+} 
+
+.info-2 h2 {
+	color: #FF4500;
+}
+
+.inc-size {
+	font-weight: bold;
+}
+#superscript 
+{
+	vertical-align: super;
+}
+
+/*floating instagram icon*/
+.icons 
+{
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	position: fixed;
+	z-index: 100;
+}
+
+.icons ul 
+{
+	padding: initial;
+}
+
+.icons ul li 
+{
+	height: 30px;
+	width: 40px;
+	list-style-type: none;
+	padding-left: 12px;
+	padding-top: 6px;
+	margin-top: 5px;
+	color: #fff;
+}
+.instagram 
+{
+	background: #ff4800;
+}
+.icons ul li:hover 
+{
+	padding-left: 30px;
+	width: 80px;
+	transition: 1s;
+}
+
